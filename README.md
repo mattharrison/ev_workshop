@@ -13,7 +13,7 @@ There are two options for installation:
  - Open the `viz-workshop.ipynb` notebook
 
 
-2. Install with `uv`:
+2. Local install with `uv`:
 
  - Install `uv` as per https://docs.astral.sh/uv/getting-started/installation/
  - Check out this project:
@@ -38,4 +38,11 @@ There are two options for installation:
   ```
 
  - Open `viz-workshop.ipynb` notebook
+
+### Note
+
+I use the *Roboto Condensed* font. You will get warnings if you don't have 
+it installed. (The Codespace automatically installs it.)
+
+https://fonts.google.com/specimen/Roboto+Condensed
 
