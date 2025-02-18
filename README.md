@@ -39,6 +39,8 @@ There are two options for installation:
 
  - Open `viz-workshop.ipynb` notebook
 
+3. Pip install. Install packages in `pyproject.toml`
+
 ### Note
 
 I use the *Roboto Condensed* font. You will get warnings if you don't have 
