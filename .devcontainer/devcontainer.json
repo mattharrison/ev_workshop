@@ -1,0 +1,14 @@
+{
+  "extensions": [
+    "GitHub.github-vscode-theme",
+    "ms-toolsai.jupyter",
+    "ms-python.python"
+    // Additional Extensions Here
+  ],
+  "features": {
+    "ghcr.io/va-h/devcontainers-features/uv:1": {}
+},
+  "onCreateCommand" : "[ -f pyproject.toml ] && uv sync; echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
+}
+
+// DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
