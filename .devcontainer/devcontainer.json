@@ -8,6 +8,9 @@
   "features": {
     "ghcr.io/va-h/devcontainers-features/uv:1": {}
 },
+"postCreateCommand": [
+    "sudo apt update && sudo apt install -y fonts-roboto"
+],
   "onCreateCommand" : "[ -f pyproject.toml ] && uv sync; echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
 }
 
