@@ -10,4 +10,5 @@ dependencies = [
     "jupyterlab>=4.3.5",
     "matplotlib>=3.10.0",
     "pandas>=2.2.3",
+    "scipy>=1.15.2",
 ]
