@@ -1,0 +1,12 @@
+[project]
+name = "ev-github"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "highlight-text>=0.2",
+    "jupyterlab>=4.3.5",
+    "matplotlib>=3.10.0",
+    "pandas>=2.2.3",
+]
