@@ -4,16 +4,16 @@ ev workshop
 
 ## Installation
 
-There are two options for installation:
+There are a few different options for installation:
 
-1. Use Codespaces (the video walks through this):
+### Use Codespaces (the video walks through this):
 
  - Click on the green "Code" button. Then click on the "Codespaces" tab. Click the "+" button to create a codespace. 
  - Wait a minute or two for the Codespace to provision
  - Open the `viz-workshop.ipynb` notebook
 
 
-2. Local install with `uv`:
+### Local install with `uv`:
 
  - Install `uv` as per https://docs.astral.sh/uv/getting-started/installation/
  - Check out this project:
@@ -39,9 +39,9 @@ There are two options for installation:
 
  - Open `viz-workshop.ipynb` notebook
 
-3. Pip install. Install packages in `pyproject.toml`
+### Pip install. Install packages in `pyproject.toml`
 
-### Note
+## Note
 
 I use the *Roboto Condensed* font. You will get warnings if you don't have 
 it installed. (The Codespace automatically installs it.)
